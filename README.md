@@ -1,2 +1,2 @@
 # sample
-just to experiment
+just to experiment with git and github
