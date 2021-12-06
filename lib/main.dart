@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/homepage.dart';
 
 void main() {
-  runApp(myapp());
+  runApp(MyApp());
 }
 
-class myapp extends StatelessWidget {
-  const myapp({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("hello nitk"),
+    return MaterialApp(
+      home: HomePage(),
     );
   }
 }
