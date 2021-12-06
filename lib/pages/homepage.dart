@@ -5,10 +5,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final int age = 10;
+    final int age = 100;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Title"),
+        title: Text("Title of the day"),
       ),
       body: Center(
         child: Container(
